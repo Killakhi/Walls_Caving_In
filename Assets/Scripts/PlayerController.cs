@@ -35,4 +35,16 @@ public class PlayerController : MonoBehaviour
             isjumping = false;
         }
     }
+
+    public bool IsJumping()
+    {
+        if (isjumping == false)
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
 }
